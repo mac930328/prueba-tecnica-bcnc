@@ -61,10 +61,8 @@ ecommerce
 │   │   │                   │   │   └── OpenApiConfig.java
 │   │   │                   │   ├── controllers
 │   │   │                   │   │   └── PriceController.java
-│   │   │                   │   ├── exceptions
-│   │   │                   │   │   └── GlobalError.java
-│   │   │                   │   └── requests
-│   │   │                   │       └── PriceRequest.java
+│   │   │                   │   └── exceptions
+│   │   │                   │       └── GlobalError.java  
 │   │   │                   └── adapters
 │   │   │                       ├── PriceH2Adapter.java
 │   │   │                       ├── entities
