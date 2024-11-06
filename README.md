@@ -79,24 +79,27 @@ ecommerce
 │   │       ├── application.properties                          
 │   │       └── data.sql                                         
 │   └── test
-│       ├── groovy
-│       │   └── com
-│       │       └── bcnc
-│       │           └── ecommerce
-│       │               └── pricing
-│       │                   └── infrastructure
-│       │                       └── rest
-│       │                           └── controllers
-│       │                               └── PriceControllerSpec.groovy
 │       ├── java
 │       │   └── com
 │       │       └── bcnc
 │       │           └── ecommerce
 │       │               ├── EcommerceApplicationTest.java
+│       │               ├── application
+│       │               │   └── mappers
+│       │               │       └── PriceDtoMapperTest.java
 │       │               └── pricing
 │       │                   └── infrastructure
-│       │                       └── adapters
-│       │                           └── PriceH2AdapterTest.java
+│       │                       ├── adapters
+│       │                       │   ├── PriceH2AdapterTest.java
+│       │                       │   ├── mappers
+│       │                       │   │   ├── BrandEntityMapperTest.java
+│       │                       │   │   ├── PriceEntityMapperTest.java
+│       │                       │   │   └── ProductEntityMapperTest.java
+│       │                       │   └── repository
+│       │                       │       └── PriceJpaRepositoryTest.java
+│       │                       └── rest
+│       │                           └── controllers
+│       │                               └── PriceControllerTest.java
 │       └── resorces
 │           ├── application.properties                          
 │           └── data-test.sql 
